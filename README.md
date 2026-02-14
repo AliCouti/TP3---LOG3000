@@ -1,4 +1,4 @@
-# Nom du projet
+# TP3
 
 ## Numéro d’équipe
 Équipe 26
@@ -17,24 +17,36 @@ Avant d’installer le projet, assurez-vous d’avoir accès localement à :
 ## Instructions d’installation
 
 1. Cloner le dépôt :
-   git clone https://github.com/AliCouti/TP3---LOG3000.git
+
+   - git clone https://github.com/AliCouti/TP3---LOG3000.git
 
 2. Dans le fichier du répertoir, créer un environnement virtuel :
-    (Linux) -> python3 -m venv venv 
+
+    - (Linux) -> python3 -m venv venv 
+
     ou
-    (Windows) -> python -m venv venv
+
+    - (Windows) -> python -m venv venv
 
 3. Activer l'environnement :
-    (Linux) -> source venv/bin/activate
+
+    - (Linux) -> source venv/bin/activate
+
     ou
-    (Windows PowerShell) -> venv\Scripts\Activate.ps1
-    (Windows CMD) -> venv\Scripts\activate
+
+    - (Windows PowerShell) -> venv\Scripts\Activate.ps1
+    - (Windows CMD) -> venv\Scripts\activate
 
 4. Installer Flask:
-    pip install flask
 
-5. Naviguer dans le dossier "src/" et lancer l'application:
-    (Linux) -> python3 app.py
+    - pip install flask
+
+5. (Optionnel) Installer pydocstyle pour valider la documentation:
+
+    - pip install pydocstyle
+
+6. Naviguer dans le dossier "src/" et lancer l'application:
+    - (Linux) -> python3 app.py
     ou
-    (Windows) -> python app.py
+    - (Windows) -> python app.py
 
