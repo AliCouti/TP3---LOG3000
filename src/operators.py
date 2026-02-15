@@ -58,4 +58,4 @@ def divide(a,b):
     Retour :
         int : division de a par b
     """
-    return a // b
+    return a / b
