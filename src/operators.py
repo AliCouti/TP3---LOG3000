@@ -56,6 +56,6 @@ def divide(a,b):
         b (float) : deuxième nombre
 
     Retour :
-        int : division entière de a par b
+        int : division de a par b
     """
     return a // b
