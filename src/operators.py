@@ -32,7 +32,7 @@ def subtract(a,b):
     Retour :
         float : soustraction de a et b
     """
-    return b - a
+    return a - b
 
 def multiply(a,b):
     """
@@ -45,7 +45,7 @@ def multiply(a,b):
     Retour :
         float : multiplication de a et b
     """
-    return a ** b
+    return a * b
 
 def divide(a,b):
     """
@@ -58,4 +58,4 @@ def divide(a,b):
     Retour :
         int : division de a par b
     """
-    return a // b
+    return a / b
